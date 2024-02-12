@@ -21,7 +21,7 @@ Blang is implemented as a small single-pass compiler in ~2000 lines of pure C99 
 
 Due to Blang's simplicity, only **`gnu-linux-x86_64`**-systems are supported.
 
-- If your system can run *GNU-`make`*, *GNU-`ld`* and *GNU-`as`*, BCause itself should be able to work.
+- If your system can run *GNU-`make`*, *GNU-`ld`* and *GNU-`as`*, Blang itself should be able to work.
 - Because of the reliance on system-calls `libb.a` has to be implemented for each system separately.
 
 > **Note**
@@ -29,7 +29,7 @@ Due to Blang's simplicity, only **`gnu-linux-x86_64`**-systems are supported.
 
 ### Installation
 
-To install BCause, first clone this repository:
+To install Blang, first clone this repository:
 ```console
 $ git clone https://github.com/nikhilesh-927/Blang
 $ cd ./Blang
@@ -58,7 +58,7 @@ $ blang --help
 ```
 
 ### Licensing
-BCause is licensed under the MIT License. See `LICENSE` in this repository for further information.
+Blang is licensed under the MIT License. See `LICENSE` in this repository for further information.
 
 ### References
 
